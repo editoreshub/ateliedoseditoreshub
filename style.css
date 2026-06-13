@@ -227,4 +227,27 @@ color:#94a3b8;
     font-size:.9rem;
 }
 
-  }
+.btn,
+.btn-outline{
+    position:relative;
+    overflow:hidden;
+}
+
+.ripple{
+    position:absolute;
+    border-radius:50%;
+    transform:scale(0);
+    animation:ripple .6s linear;
+    background:rgba(255,255,255,.4);
+}
+
+@keyframes ripple{
+
+    to{
+
+        transform:scale(4);
+        opacity:0;
+
+    }
+
+}
