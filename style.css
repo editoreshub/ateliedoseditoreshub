@@ -1,0 +1,8 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0f172a;color:#fff}
+.navbar{display:flex;justify-content:space-between;padding:20px;background:#111827;position:sticky;top:0}
+.navbar a{color:white;text-decoration:none;margin-left:15px}
+.hero{padding:120px 20px;text-align:center}
+.hero h2{font-size:3rem}
+.hero p{margin-top:15px;color:#cbd5e1}
